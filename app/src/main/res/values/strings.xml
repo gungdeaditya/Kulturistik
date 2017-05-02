@@ -1,3 +1,10 @@
 <resources>
     <string name="app_name">IMK_M3</string>
+    <string-array name="kotaArray">
+        <item>Jakarta</item>
+        <item>Bogor</item>
+        <item>Depok</item>
+        <item>Tangerang</item>
+        <item>Bekasi</item>
+    </string-array>
 </resources>
