@@ -7,18 +7,14 @@ import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
 import android.view.Window;
-import android.widget.ArrayAdapter;
 import android.widget.Button;
 import android.widget.EditText;
-import android.widget.Spinner;
 import android.widget.Toast;
 
 public class LoginActivity extends AppCompatActivity {
 
     Button btnLogin;
     EditText edtEmail, edtPassword;
-    Spinner spinner;
-    ArrayAdapter<CharSequence> adapter;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -29,7 +25,6 @@ public class LoginActivity extends AppCompatActivity {
 
         btnLogin = (Button) findViewById(R.id.btn_login);
         edtEmail = (EditText) findViewById(R.id.edt_email);
-        spinner = (Spinner) findViewById(R.id.spinner);
         edtPassword = (EditText) findViewById(R.id.edt_password);
         btnLogin.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -40,20 +35,9 @@ public class LoginActivity extends AppCompatActivity {
             }
         });
 
-        adapter = ArrayAdapter.createFromResource(this,R.array.kotaArray,android.R.layout.simple_spinner_item);
-        adapter.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item);
-        spinner.setAdapter(adapter);
     }
 
     private void login(String email, String pass) {
-        if (email.equals("") || pass.equals("")) {
-            Toast.makeText(this, "Fill Can't be Blank", Toast.LENGTH_SHORT).show();
-        } else{
-            setAlertForResult("Pemberitahuan",email, pass, spinner.getSelectedItem().toString());
-        }
-    }
-
-    /*private void login(String email, String pass) {
         if (email.equals("") || pass.equals("")) {
             Toast.makeText(this, "Fill Can't be Blank", Toast.LENGTH_SHORT).show();
         } else if (email.equals("system") && pass.equals("system")) {
@@ -63,7 +47,7 @@ public class LoginActivity extends AppCompatActivity {
         } else {
             Toast.makeText(this, "Wrong Email or Password", Toast.LENGTH_SHORT).show();
         }
-    }*/
+    }
 
     @Override
     public void onBackPressed() {
@@ -92,21 +76,4 @@ public class LoginActivity extends AppCompatActivity {
         alertDialog.show();
     }
 
-    private void setAlertForResult(String title, String email, String pass, String spinner) {
-        AlertDialog alertDialog;
-        AlertDialog.Builder builder = new AlertDialog.Builder(this);
-        builder.setCancelable(true)
-                .setMessage("Email "+email+"\n"+
-                        "Password "+pass+"\n"+
-                        "Spinner "+spinner)
-                .setTitle(title)
-                .setPositiveButton("Ya", new DialogInterface.OnClickListener() {
-                    @Override
-                    public void onClick(DialogInterface dialog, int which) {
-                        dialog.dismiss();
-                    }
-                });
-        alertDialog = builder.create();
-        alertDialog.show();
-    }
 }

@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">IMK_M3</string>
+    <string name="app_name">Kulturistik</string>
     <string-array name="kotaArray">
         <item>Jakarta</item>
         <item>Bogor</item>
