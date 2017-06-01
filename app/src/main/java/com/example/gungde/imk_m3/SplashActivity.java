@@ -6,22 +6,32 @@ import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.Window;
 
-public class SplashActivity extends AppCompatActivity implements Runnable {
+import com.example.gungde.imk_m3.utils.BaseActivity;
+
+public class SplashActivity extends BaseActivity implements Runnable {
 
     private static final int DELAY = 2000;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+        hideToolbar();
+        binding(R.layout.activity_splash);
+        setHandler();
+    }
+
+    private void hideToolbar() {
         getWindow().requestFeature(Window.FEATURE_ACTION_BAR);
         getSupportActionBar().hide();
-        setContentView(R.layout.activity_splash);
+    }
+
+    private void setHandler() {
         new Handler().postDelayed(this,DELAY);
     }
 
     @Override
     public void run() {
-        startActivity(new Intent(this,LoginActivity.class));
+        startActivity(new Intent(this,Main2Activity .class));
         finish();
     }
 }

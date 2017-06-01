@@ -11,7 +11,9 @@ import android.widget.Button;
 import android.widget.EditText;
 import android.widget.Toast;
 
-public class LoginActivity extends AppCompatActivity {
+import com.example.gungde.imk_m3.utils.BaseActivity;
+
+public class LoginActivity extends BaseActivity {
 
     Button btnLogin;
     EditText edtEmail, edtPassword;
@@ -21,7 +23,7 @@ public class LoginActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         getWindow().requestFeature(Window.FEATURE_ACTION_BAR);
         getSupportActionBar().hide();
-        setContentView(R.layout.activity_login);
+        binding(R.layout.activity_login);
 
         btnLogin = (Button) findViewById(R.id.btn_login);
         edtEmail = (EditText) findViewById(R.id.edt_email);

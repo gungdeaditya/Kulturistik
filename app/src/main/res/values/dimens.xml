@@ -1,5 +1,52 @@
 <resources>
     <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="nav_header_vertical_spacing">16dp</dimen>
+    <dimen name="nav_header_height">160dp</dimen>
     <dimen name="activity_horizontal_margin">16dp</dimen>
     <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="fab_margin">16dp</dimen>
+    <dimen name="app_bar_height">180dp</dimen>
+    <dimen name="text_margin">16dp</dimen>
+
+    <dimen name="image50">50dp</dimen>
+    <dimen name="image60">60dp</dimen>
+    <dimen name="image80">80dp</dimen>
+    <dimen name="image90">90dp</dimen>
+    <dimen name="image100">100dp</dimen>
+    <dimen name="image120">120dp</dimen>
+    <dimen name="image150">150dp</dimen>
+    <dimen name="image200">200dp</dimen>
+    <dimen name="image250">250dp</dimen>
+    <dimen name="image300">300dp</dimen>
+
+    <dimen name="padding_8dp">8dp</dimen>
+    <dimen name="padding_4dp">4dp</dimen>
+
+    <dimen name="sizeframe0.5">0.5dp</dimen>
+    <dimen name="sizeframe1">1dp</dimen>
+    <dimen name="sizeframe2">2dp</dimen>
+    <dimen name="sizeframe3">3dp</dimen>
+    <dimen name="sizeframe5">6dp</dimen>
+    <dimen name="sizeframe8">8dp</dimen>
+    <dimen name="sizeframe10">10dp</dimen>
+    <dimen name="sizeframe12">12dp</dimen>
+    <dimen name="sizeframe14">14dp</dimen>
+    <dimen name="sizeframe16">16dp</dimen>
+    <dimen name="sizeframe20">20dp</dimen>
+    <dimen name="sizeframe25">25dp</dimen>
+    <dimen name="sizeframe30">30dp</dimen>
+    <dimen name="sizeframe35">35dp</dimen>
+    <dimen name="sizeframe26">26dp</dimen>
+    <dimen name="sizeframe40">40dp</dimen>
+
+    <dimen name="sizefont8">8sp</dimen>
+    <dimen name="sizefont10">10sp</dimen>
+    <dimen name="sizefont12">12sp</dimen>
+    <dimen name="sizefont14">14sp</dimen>
+    <dimen name="sizefont16">16sp</dimen>
+    <dimen name="sizefont18">18sp</dimen>
+    <dimen name="sizefont20">20sp</dimen>
+    <dimen name="sizefont22">22sp</dimen>
+    <dimen name="sizefont24">24sp</dimen>
+    <dimen name="sizefont26">26sp</dimen>
 </resources>

@@ -1,0 +1,74 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">24dp</dimen>
+    <dimen name="activity_vertical_margin">24dp</dimen>
+
+    <dimen name="padding_8dp">12dp</dimen>
+    <dimen name="padding_4dp">6dp</dimen>
+
+    <dimen name="counterovalpading">3dp</dimen>
+    <dimen name="image180">270dp</dimen>
+    <dimen name="image50">75dp</dimen>
+    <dimen name="image60">90dp</dimen>
+    <dimen name="image80">120dp</dimen>
+    <dimen name="image90">135dp</dimen>
+    <dimen name="image100">150dp</dimen>
+    <dimen name="image120">180dp</dimen>
+    <dimen name="image150">225dp</dimen>
+    <dimen name="image200">300dp</dimen>
+    <dimen name="image225">337.5dp</dimen>
+    <dimen name="image250">375dp</dimen>
+
+    <dimen name="image300">450dp</dimen>
+    <dimen name="tab_text">28.5sp</dimen>
+    <!--margin layout normal-->
+    <dimen name="sizeframe0.5">0.75dp</dimen>
+    <dimen name="sizeframe1">1.5dp</dimen>
+    <dimen name="sizeframe2">3dp</dimen>
+    <dimen name="sizeframe3">4.5dp</dimen>
+    <dimen name="sizeframe5">7.5dp</dimen>
+    <dimen name="sizeframemin5">-7.5dp</dimen>
+    <dimen name="sizeframe8">12dp</dimen>
+    <dimen name="sizeframe10">15dp</dimen>
+    <dimen name="sizeframe12">18dp</dimen>
+    <dimen name="sizeframe14">21dp</dimen>
+    <dimen name="sizeframe16">24dp</dimen>
+    <dimen name="sizeframe20">30dp</dimen>
+    <dimen name="sizeframe25">37.5dp</dimen>
+    <dimen name="sizeframe30">45dp</dimen>
+    <dimen name="sizeframe35">52.5dp</dimen>
+    <dimen name="sizeframe26">39dp</dimen>
+    <dimen name="sizeframe40">60dp</dimen>
+
+    <dimen name="sizefont8">12sp</dimen>
+    <dimen name="sizefont10">15sp</dimen>
+    <dimen name="sizefont12">18sp</dimen>
+    <dimen name="sizefont14">21sp</dimen>
+    <dimen name="sizefont16">24sp</dimen>
+    <dimen name="sizefont18">27sp</dimen>
+    <dimen name="sizefont20">30sp</dimen>
+    <dimen name="sizefont22">33sp</dimen>
+    <dimen name="sizefont24">36sp</dimen>
+    <dimen name="sizefont26">39sp</dimen>
+    <dimen name="heightimagelist">105dp</dimen>
+    <dimen name="heightimagedetail">180dp</dimen>
+    <dimen name="navBarLayoutSize">360dp</dimen>
+
+    <dimen name="actionbs">84dp</dimen>
+    <dimen name="titlebs">30sp</dimen>
+
+    <!--listdarahfragment-->
+
+    <!-- Default screen margins, per the Android Design guidelines. -->
+
+
+    <dimen name="fab_button_diameter">105dp</dimen>
+    <dimen name="fab_button_margin_bottom">24dp</dimen>
+    <dimen name="fab_button_margin_right">24dp</dimen>
+    <dimen name="elevation_low">1.5dp</dimen>
+    <dimen name="elevation_high">12dp</dimen>
+    <dimen name="widgetW">516dp</dimen>
+    <dimen name="widgetH">146dp</dimen>
+
+
+</resources>

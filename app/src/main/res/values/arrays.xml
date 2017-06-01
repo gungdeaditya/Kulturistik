@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <array name="title_article">
+        <item>Bali Pariwisata</item>
+        <item>Paris at Bandung</item>
+        <item>Sultan Yogyakarta</item>
+    </array>
+    <array name="subtitle_article">
+        <item>Lorem ipsum lorep ipsum suna idwo Lorem ipsum lorep ipsum suna idwo Lorem ipsum lorep ipsum suna idwo</item>
+        <item>Lorem ipsum lorep ipsum suna idwo Lorem ipsum lorep ipsum suna idwo Lorem ipsum lorep ipsum suna idwo</item>
+        <item>Lorem ipsum lorep ipsum suna idwo Lorem ipsum lorep ipsum suna idwo Lorem ipsum lorep ipsum suna idwo</item>
+    </array>
+    <array name="detail_article">
+        <item>Sentra Laktasi, Indonesia</item>
+        <item>IBI</item>
+        <item>3Generasi</item>
+    </array>
+
+</resources>
