@@ -2,7 +2,6 @@ package com.example.gungde.imk_m3;
 
 import android.content.Intent;
 import android.os.Handler;
-import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.Window;
 
@@ -31,7 +30,7 @@ public class SplashActivity extends BaseActivity implements Runnable {
 
     @Override
     public void run() {
-        startActivity(new Intent(this,Main2Activity .class));
+        startActivity(new Intent(this,MainActivity.class));
         finish();
     }
 }

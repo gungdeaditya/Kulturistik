@@ -1,6 +1,10 @@
 package com.example.gungde.imk_m3.model;
 
+import com.google.gson.annotations.Expose;
+import com.google.gson.annotations.SerializedName;
+
 import java.io.Serializable;
+import java.util.List;
 
 /**
  * Created by gungdeaditya on 31/05/17.
@@ -8,44 +12,148 @@ import java.io.Serializable;
 
 public class Article implements Serializable {
 
-    private int image;
-    private String title,subTitle,detailMessage;
+    @SerializedName("id")
+    private Integer id;
+    @SerializedName("date")
+    private String date;
+    @SerializedName("guid")
+    private Guid guid;
+    @SerializedName("link")
+    private String link;
+    @SerializedName("title")
+    private Title title;
+    @SerializedName("content")
+    private Content content;
 
-    public Article(Integer image,String title,String subTitle){
-        this.image = image;
-        this.title = title;
-        this.subTitle = subTitle;
+    public String getImages() {
+        return images;
     }
 
-    public int getImage() {
-        return image;
+    public void setImages(String images) {
+        this.images = images;
     }
 
-    public void setImage(int image) {
-        this.image = image;
+    @SerializedName("excerpt")
+    private Excerpt excerpt;
+    private String images;
+
+    public Article() {
+
     }
 
-    public String getTitle() {
+    public Integer getId() {
+        return id;
+    }
+
+    public void setId(Integer id) {
+        this.id = id;
+    }
+
+    public String getDate() {
+        return date;
+    }
+
+    public void setDate(String date) {
+        this.date = date;
+    }
+
+    public Guid getGuid() {
+        return guid;
+    }
+
+    public void setGuid(Guid guid) {
+        this.guid = guid;
+    }
+
+    public String getLink() {
+        return link;
+    }
+
+    public void setLink(String link) {
+        this.link = link;
+    }
+
+    public Title getTitle() {
         return title;
     }
 
-    public void setTitle(String title) {
+    public void setTitle(Title title) {
         this.title = title;
     }
 
-    public String getSubTitle() {
-        return subTitle;
+    public Content getContent() {
+        return content;
     }
 
-    public void setSubTitle(String subTitle) {
-        this.subTitle = subTitle;
+    public void setContent(Content content) {
+        this.content = content;
     }
 
-    public String getDetailMessage() {
-        return detailMessage;
+    public Excerpt getExcerpt() {
+        return excerpt;
     }
 
-    public void setDetailMessage(String detailMessage) {
-        this.detailMessage = detailMessage;
+    public void setExcerpt(Excerpt excerpt) {
+        this.excerpt = excerpt;
+    }
+
+
+    public static class Content implements Serializable {
+
+        @SerializedName("rendered")
+        private String rendered;
+
+        public String getRendered() {
+            return rendered;
+        }
+
+        public void setRendered(String rendered) {
+            this.rendered = rendered;
+        }
+
+    }
+
+    public static class Excerpt implements Serializable {
+
+        @SerializedName("rendered")
+        private String rendered;
+
+        public String getRendered() {
+            return rendered;
+        }
+
+        public void setRendered(String rendered) {
+            this.rendered = rendered;
+        }
+
+    }
+
+    public static class Guid implements Serializable {
+
+        @SerializedName("rendered")
+        private String rendered;
+
+        public String getRendered() {
+            return rendered;
+        }
+
+        public void setRendered(String rendered) {
+            this.rendered = rendered;
+        }
+    }
+
+    public static class Title implements Serializable {
+
+        @SerializedName("rendered")
+        private String rendered;
+
+        public String getRendered() {
+            return rendered;
+        }
+
+        public void setRendered(String rendered) {
+            this.rendered = rendered;
+        }
+
     }
 }

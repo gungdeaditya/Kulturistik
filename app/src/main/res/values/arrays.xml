@@ -12,9 +12,22 @@
         <item>Lorem ipsum lorep ipsum suna idwo Lorem ipsum lorep ipsum suna idwo Lorem ipsum lorep ipsum suna idwo</item>
     </array>
     <array name="detail_article">
-        <item>Sentra Laktasi, Indonesia</item>
-        <item>IBI</item>
-        <item>3Generasi</item>
+        <item>Lorem ipsum lorep ipsum suna idwo Lorem ipsum lorep ipsum suna idwo Lorem ipsum lorep ipsum suna idwo</item>
+        <item>Lorem ipsum lorep ipsum suna idwo Lorem ipsum lorep ipsum suna idwo Lorem ipsum lorep ipsum suna idwo</item>
+        <item>Lorem ipsum lorep ipsum suna idwo Lorem ipsum lorep ipsum suna idwo Lorem ipsum lorep ipsum suna idwo</item>
+    </array>
+
+    <array name="images">
+        <item>http://www.panduanwisata.web.id/wp-content/uploads/2017/05/perlengkapan-umroh-wanita.jpg</item>
+        <item>http://www.panduanwisata.web.id/wp-content/uploads/2017/05/oatmeal-4.png</item>
+        <item>http://www.panduanwisata.web.id/wp-content/uploads/2017/03/jimbaran_bali.png</item>
+        <item>http://www.panduanwisata.web.id/wp-content/uploads/2017/03/Liburan-di-Seminyak-Bali-Yuk-Datang-ke-3-Tempat-Ini.png</item>
+        <item>http://www.panduanwisata.web.id/wp-content/uploads/2017/03/pantai-seminyak-bali-500x160.jpg</item>
+        <item>http://www.panduanwisata.web.id/wp-content/uploads/2017/02/memasak-keluarga-2-605x160.jpg</item>
+        <item>http://www.panduanwisata.web.id/wp-content/uploads/2016/12/The-Seminyak-Beach-Resort-Spa-Penginapan-Mewah-di-Seminyak-Bali.png</item>
+        <item>http://www.panduanwisata.web.id/wp-content/uploads/2016/11/3-Referensi-Bali-Seminyak-Hotels-Murah-Dekat-Pantai-Berkualitas.png</item>
+        <item>http://www.panduanwisata.web.id/wp-content/uploads/2016/11/494.png</item>
+        <item>http://www.panduanwisata.web.id/wp-content/uploads/2016/11/493.png</item>
     </array>
 
 </resources>
