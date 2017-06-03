@@ -76,7 +76,7 @@ public class MainActivity extends BaseActivity implements SwipeRefreshLayout.OnR
         mySwipeRefreshLayout.setOnRefreshListener(MainActivity.this);
     }
 
-    private void queryAllUsers() {
+    private void queryAllArticles () {
         ApiInterface apiInterface = ApiInterface.retrofit.create(ApiInterface.class);
         Call<List<Article>> call = apiInterface.getArticle("true");
         call.enqueue(new Callback<List<Article>>() {
@@ -109,12 +109,12 @@ public class MainActivity extends BaseActivity implements SwipeRefreshLayout.OnR
     public void onStart() {
         super.onStart();
         showProgressBarForUsers();
-        queryAllUsers();
+        queryAllArticles();
     }
 
     @Override
     public void onRefresh() {
-        queryAllUsers();
+        queryAllArticles();
     }
 
     @Override

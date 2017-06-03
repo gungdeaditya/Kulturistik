@@ -16,23 +16,12 @@ public class Article implements Serializable {
     private Integer id;
     @SerializedName("date")
     private String date;
-    @SerializedName("guid")
-    private Guid guid;
     @SerializedName("link")
     private String link;
     @SerializedName("title")
     private Title title;
     @SerializedName("content")
     private Content content;
-
-    public String getImages() {
-        return images;
-    }
-
-    public void setImages(String images) {
-        this.images = images;
-    }
-
     @SerializedName("excerpt")
     private Excerpt excerpt;
     private String images;
@@ -55,14 +44,6 @@ public class Article implements Serializable {
 
     public void setDate(String date) {
         this.date = date;
-    }
-
-    public Guid getGuid() {
-        return guid;
-    }
-
-    public void setGuid(Guid guid) {
-        this.guid = guid;
     }
 
     public String getLink() {
@@ -97,6 +78,13 @@ public class Article implements Serializable {
         this.excerpt = excerpt;
     }
 
+    public String getImages() {
+        return images;
+    }
+
+    public void setImages(String images) {
+        this.images = images;
+    }
 
     public static class Content implements Serializable {
 
@@ -126,20 +114,6 @@ public class Article implements Serializable {
             this.rendered = rendered;
         }
 
-    }
-
-    public static class Guid implements Serializable {
-
-        @SerializedName("rendered")
-        private String rendered;
-
-        public String getRendered() {
-            return rendered;
-        }
-
-        public void setRendered(String rendered) {
-            this.rendered = rendered;
-        }
     }
 
     public static class Title implements Serializable {
