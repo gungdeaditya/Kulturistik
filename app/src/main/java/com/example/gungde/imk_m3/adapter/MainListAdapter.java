@@ -1,7 +1,6 @@
 package com.example.gungde.imk_m3.adapter;
 
 import android.app.Activity;
-import android.content.Context;
 import android.content.Intent;
 import android.support.v7.widget.RecyclerView;
 import android.text.Html;
